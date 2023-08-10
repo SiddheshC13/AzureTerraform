@@ -1,13 +1,3 @@
-variable "serviceprincipal1" {
-  description = "Enter your details for connecting with your account"
-  type        = map(any)
-  default = {
-    subscription_id = "754a1399-426f-48cf-aa53-609abfb947db"
-    clientid        = "a199cec1-24a2-46d1-8ef4-9ca2630b8674"
-    clientsecret    = "OBh8Q~5.xRLtkh4yHDDKUYcgqGfTEWnYlq63CaX3"
-    tenantid        = "21824c05-eff6-477c-ba01-6443c7bba628"
-  }
-}
 
 variable "Spoke1-resource_group_name" {
   description = "Enter the resource group name for spoke 1"
